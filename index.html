@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>School Supplies Flash Cards</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #fdf5e6;
+    }
+
+    .card {
+      display: inline-block;
+      border: 2px solid #e0c97f;
+      border-radius: 12px;
+      padding: 20px;
+      background-color: #fff8dc;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card img {
+      width: 250px;
+      border-radius: 10px;
+      display: none;
+    }
+
+    .card.show img {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Flash-cards: School Supplies</h1>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Scissors</div>
+    <img src="https://i.pinimg.com/736x/f9/59/d2/f959d201994e666cd9952cd486b32b11.jpg" alt="Scissors">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Notebook</div>
+    <img src="https://i.pinimg.com/736x/f4/fe/f0/f4fef07ae7753dc989f36ca1afcd8640.jpg" alt="Notebook">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">School Bag</div>
+    <img src="https://i.pinimg.com/736x/a6/e8/2a/a6e82afce0927002afb5106c2ab93afd.jpg" alt="School Bag">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Pencil</div>
+    <img src="https://i.pinimg.com/736x/87/e5/c3/87e5c3328449ad4d29d53083d5ac09ce.jpg" alt="Pencil">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Ruler</div>
+    <img src="https://i.pinimg.com/736x/e3/4b/3e/e34b3e4aa6bc3f49b9f3f0d348550cee.jpg" alt="Ruler">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Eraser</div>
+    <img src="https://i.pinimg.com/736x/7e/5a/5c/7e5a5c61143e0129e2a406e3daff0eaa.jpg" alt="Eraser">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Glue</div>
+    <img src="https://i.pinimg.com/736x/56/22/65/56226591ee8d1c24f13ae9ac88138e39.jpg" alt="Glue">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Crayons</div>
+    <img src="https://i.pinimg.com/736x/9a/33/fb/9a33fbcc4f25251b393fd3ac0e1a57b0.jpg" alt="Crayons">
+  </div>
+
+  <div class="card" onclick="showImage(this)">
+    <div class="card-title">Sharpener</div>
+    <img src="https://i.pinimg.com/736x/d2/ed/75/d2ed756678b4920daf2818cc687ba770.jpg" alt="Sharpener">
+  </div>
+
+  <script>
+    function showImage(card) {
+      card.classList.add('show');
+    }
+  </script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
